@@ -13,7 +13,7 @@
 <!--
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 -->
-<script>
+<script>  
 /*
  * jQuery로 DOM객체를 얻어오는 메서드(jQuery DOM 객체가 아니다!!!!)
 	$(선택자).get(인덱스)는 자바스크립트로 문서개체를 얻어오는 document.getElementById()와 같다 
