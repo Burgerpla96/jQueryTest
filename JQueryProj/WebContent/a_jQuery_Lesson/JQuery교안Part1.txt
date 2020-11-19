@@ -997,7 +997,7 @@
 [form관련 jQuery선택기]
 
 	:input
-	input만 가져오는게 아닌 모든 폼 요소를 검색 input, textarea,select
+	input만 가져오는게 아닌 모든 폼 요소를 검색 input, textarea, select
 	단 $("input")은 input태그만 가져옴 그러나 $(":input")은 폼의 모든 입력요소 즉 하위요소를 가져옴
 
 	
@@ -1024,7 +1024,7 @@
 	:disabled
 	disabled 속성이 있는 요소검색
 	:checked
-	checked 속성이 있는(체크된) 요소검색
+	checked 속성이 있는(체크된) 요소검색(radio, checkbox )
 	:selected
 	selected 속성이있는(선택된) 요소검색
 

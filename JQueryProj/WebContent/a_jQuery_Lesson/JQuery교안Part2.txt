@@ -1,15 +1,15 @@
 [ jQuery Ajax관련 API 교안]
 
-AJAX(Asynchronous JavaScript and Xml)
+AJAX(Asynchronous JavaScript And Xml)
 	- javascript를 사용한 비동기 통신 
-	- 페이지 이동이 발생하지않고 즉 새로고침이 일어나지 않고 서버로부터
-          결과를 받아 올 수 있음
+	- 페이지 이동이 발생하지않고 즉 새로고침이 일어나지 않고 서버로부터  결과를 받아 올 수 있음
+	xml대신 요즘은 json으로 응답한다.
 
 	처리 순서]
 
 	사용자가 이벤트 발생->
 	자바스크립트의 DOM을 사용해서 필요한 정보를 구한뒤
-        XMLHttpRequest객체를 통해서 웹 서버에 요청을 전달
+        XMLHttpRequest객체(모든 브라우저가 가짐)를 통해서 웹 서버에 요청을 전달
         ->웹서버는 XMLHttpRequest로부터의 요청을 알맞게 차리한 후 결과를 xml이나
           단순 text 혹은 JSON을 생성해서 XMLHttpRequest에 전송
 	->서버로부터 응답이 도착하면 

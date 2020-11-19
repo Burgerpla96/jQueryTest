@@ -64,7 +64,6 @@
 				//liObj에 처음 객체를 저장
 				liObj = $('li:first');
 			}
-			
 		});
 		
 		
